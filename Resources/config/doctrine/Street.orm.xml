@@ -9,6 +9,7 @@
         <field name="type" type="string" length="5" />
         <field name="name" type="string" length="100" />
         <field name="additionalName" column="additional_name" type="string" length="100" nullable="true" />
+        <field name="fullName" column="full_name" type="string" length="255" nullable="true" />
         <many-to-one field="place" target-entity="Place" inversed-by="streets">
             <join-column name="place_id" referenced-column-name="id" nullable="false" />
         </many-to-one>
