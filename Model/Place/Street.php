@@ -32,6 +32,11 @@ class Street
      * @var string
      */
     protected $additionalName;
+    
+    /**
+     * @var string
+     */
+    protected $fullName;
 
     /**
      * @var Place
